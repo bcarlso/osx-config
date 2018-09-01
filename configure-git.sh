@@ -1,4 +1,7 @@
-echo '[user]' >> ~/.gitconfig
-echo '	name = Brandon Carlson' >> ~/.gitconfig
-echo '	email = bcarlso@leantechniques.com' >> ~/.gitconfig
+config=~/.gitconfig
 
+echo '[user]' >> $config
+echo '	name = Brandon Carlson' >> $config
+echo '	email = bcarlso@leantechniques.com' >> $config
+echo '[pull]' >> $config
+echo '	rebase = true' >> $config
